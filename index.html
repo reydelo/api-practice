@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Rails API Fun</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="/Users/reydelo/gSchool/js-jquery/api-practice/handlebars-v3.0.1.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <script id="api-template" type="text/x-handlebars-template">
+      {{#each this}}
+        <p><h1>{{name}}</h1></p>
+        <p><h4>{{description}} - ${{price}}</h4></p>
+      {{/each}}
+    </script>
+  </body>
+</html>
